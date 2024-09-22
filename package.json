@@ -1,5 +1,5 @@
 {
-  "name": "bbquiz",
+  "name": "bbQuiz",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-redux": "^9.1.2",
+    "styled-components": "^6.1.12",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
     "eslint": "8.57.0",
